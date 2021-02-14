@@ -1,4 +1,4 @@
-# Python!
+# Python, learning with the language!
 
 First steps on Python programming.
 
