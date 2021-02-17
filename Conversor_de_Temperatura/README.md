@@ -1,1 +1,1 @@
-Treino de conversor de temperaturas °C - °F
+Conversor de temperaturas de °C para °F e vice-versa.
