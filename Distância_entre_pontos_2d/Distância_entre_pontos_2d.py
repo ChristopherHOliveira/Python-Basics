@@ -9,6 +9,8 @@ print("Digite as coordenadas do segundo ponto:")
 bx = float(input("Coordenada X: "))
 by = float(input("Coordenada Y: "))
 
+## teste
+
 while res == "s" or res =="S":
 
     dist = ((bx-ax)**2+(by-ay)**2)**(1/2)
