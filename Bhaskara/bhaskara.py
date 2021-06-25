@@ -13,7 +13,7 @@ def bhaskara(a, b, c):
     elif delta == 0:
         x = -b / (2*a)
         resposta = ('\n\nDelta é igual a 0.\n'
-                    'Portanto a equação possui um resultado real:'
+                    'Portanto a equação possui um resultado real:\n'
                     f'x = {x}.')
         return resposta
     else:
@@ -26,7 +26,7 @@ def bhaskara(a, b, c):
         return resposta
 
 
-# chamando a função e imprimindo o retorno
+# chamando a função e imprimindo o retorno de três exemplos
 print(bhaskara(3, 33, 99))
 print(bhaskara(1, -10, 25))
 print(bhaskara(1, 12, -13))
