@@ -19,12 +19,17 @@ def fib(n):
     else:
         list_fib.append(n1)
         list_fib.append(n2)
-        while cont < n-2:
+        '''while cont < n-2:
             n3 = n1 + n2
             list_fib.append(n3)
-            n2 = n1
-            n1 = n3
-            cont += 1
+            n1 = n2
+            n2 = n3
+            cont += 1'''
+        for x in range(2, n):
+            n3 = n1 + n2
+            list_fib.append(n3)
+            n1 = n2
+            n2 = n3
 
     return list_fib
 
